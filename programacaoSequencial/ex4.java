@@ -3,7 +3,6 @@
 calcule a seguinte expressão: D = (R+S) / 2 , Onde : R = (A + B)2 e S = (B + C)2;
 */
 
-import java.math.*;
 import java.util.*;
 public class ex4 {
 
@@ -27,8 +26,8 @@ public class ex4 {
         System.out.print("Qual valor de C ? : ");
         C = teclado.nextInt();
 
-        R = Math.pow(B, 2);
-        S = Math.pow(C, 2);
+        R = Math.pow(A+B, 2);
+        S = Math.pow(B+C, 2);
 
         D = (R+S)/2;
 
