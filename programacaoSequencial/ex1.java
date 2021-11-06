@@ -3,7 +3,7 @@
 dias e mostre-a expressa apenas em dias.
  */
 import java.util.*;
-public class sistemaIdade {
+public class ex1 {
 	
 	public static void main(String[] args) {
 		var keyboard = new Scanner(System.in);
