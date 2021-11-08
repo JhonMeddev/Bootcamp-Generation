@@ -24,7 +24,7 @@ public class ex6 {
         System.out.print("Qual é o valor de X2 ? ");
         X2 = teclado.nextInt();
 
-        System.out.print("Qual é o valor de Y1 ? ");
+        System.out.print("Qual é o valor de Y2 ? ");
         Y2 = teclado.nextInt();
 
         distancia = Math.sqrt(Math.pow((X2-X1), 2)) + Math.pow((Y2-Y1), 2);
