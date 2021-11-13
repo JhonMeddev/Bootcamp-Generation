@@ -23,7 +23,7 @@ public class TestaAviao{
 
         System.out.println("Qual o nivel de combustivel ?");
         nivelCombust = input.nextInt();
-        aviao.setcombustivel(nivelCombust);
+        aviao.setCombustivel(nivelCombust);
 
 
         System.out.println("Aviao numero 1 informacoes: ");
