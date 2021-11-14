@@ -30,6 +30,10 @@ public class Aviao {
     public void setBancos(int bancos) {
         this.bancos = bancos;
     }
+    
+    public void setCombustivel(int combustivel) {
+        this.combustivel = combustivel;
+    }
 
     //metodos
 
